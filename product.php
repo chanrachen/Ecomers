@@ -46,8 +46,6 @@ include('header.php');
 
                         ?>
 
-
-
                         <form action='product.php?add_cart=<?php if (isset($_GET['product_id'])) {
                                                                 $product_id = $_GET['product_id'];
                                                                 echo $product_id;

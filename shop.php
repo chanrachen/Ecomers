@@ -105,7 +105,7 @@ include("header.php");
                                                 <h5>$product_title</h5>
                                             </a>
                                             <div class='product-price'>
-                                            PKR $product_price                    
+                                            $ $product_price                    
                                             </div>
                                         </div>
                                     </div>

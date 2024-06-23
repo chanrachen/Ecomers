@@ -5,13 +5,13 @@
             <div class="col-lg-3">
                 <div class="footer-left">
                     <div class="footer-logo">
-                        <a href="index.php"> <span>Inferno Co.</span>
+                        <a href="index.php"> <span>Shop Khmer</span>
                         </a>
                     </div>
                     <ul>
-                        <li>+92 3213352126</li>
-                        <li>Inferno Co.@gmail.com</li>
-                        <li>NUST H-12, Islamabad</li>
+                        <li>012 43 77 44</li>
+                        <li>Shop Khmer 007</li>
+                        <li>Phnom Penh</li>
                     </ul>
                     <div class="footer-social">
                         <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>

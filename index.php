@@ -43,14 +43,12 @@ include("header.php");
 
         $get_slides = "select * from slider LIMIT 1,2";
         $run_slider = mysqli_query($con, $get_slides);
-
         while ($row_slides = mysqli_fetch_array($run_slider)) {
 
             $slide_name = $row_slides['slide_name'];
             $slide_image = $row_slides['slide_image'];
             $slide_heading = $row_slides['slide_heading'];
             $slide_text = $row_slides['slide_text'];
-
             echo "
             <div class='single-hero-items set-bg' data-setbg='img/$slide_image'>
                 <div class='container'>
@@ -73,7 +71,7 @@ include("header.php");
 
 <!-- Banner Section Begin -->
 
-<div class="banner-section spad">
+<!-- <div class="banner-section spad">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-4">
@@ -109,12 +107,12 @@ include("header.php");
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
 <!-- Women Banner Section Begin -->
 
-<section class="women-banner spad">
+<!-- <section class="women-banner spad">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3">
@@ -136,12 +134,12 @@ include("header.php");
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 <!-- Man Banner Section Begin -->
 
-<section class="man-banner spad">
+<!-- <section class="man-banner spad">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-8">
@@ -163,7 +161,7 @@ include("header.php");
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Footer -->
 

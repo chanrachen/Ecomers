@@ -3,22 +3,16 @@ require_once('config.php');
 include('db.php');
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
-
 <meta charset="UTF-8">
-<meta name="description" content="Inferno Co.">
+<meta name="description" content="Shop Khmer 007">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Inferno Co.</title>
 
 <!-- Google Fonts Used -->
 <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
-
-<!-- Tab Icon -->
-
-<link rel="icon" href="img/icon.svg">
 
 <!-- Css Styles -->
 <link rel='stylesheet' href='css/bootstrap.min.css' type='text/css'>
@@ -28,30 +22,17 @@ include('db.php');
 <link rel='stylesheet' href='css/owl.carousel.min.css' type='text/css'>
 <link rel='stylesheet' href='css/slicknav.min.css' type='text/css'>
 <link rel='stylesheet' href='css/style.css' type='text/css'>
-
-
 </head>
-
 <body>
 
-    <!-- Page Pre Load Section-->
-
-    <div id="preload">
-        <div class="load">
-        </div>
-    </div>
-
     <!-- Header Section-->
-
     <header class="header-section">
         <!-- Top Bar -->
         <div class="header-top" id="top">
             <div class="container">
                 <div class="f-left">
                     <div class="top-social">
-                        <a href="https://www.facebook.com/" target="_blank"><i class="ti-facebook"></i></a>
-                        <a href="https://twitter.com/explore" target="_blank"><i class="ti-twitter-alt"></i></a>
-                        <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="ti-instagram"></i></a>
+                        <a href="">Shop Khmer 007</a>
                     </div>
                 </div>
 
@@ -70,7 +51,6 @@ include('db.php');
                                     } else {
                                         echo "<a href='logout.php' class='btn logbtn' style='width: 200px; height:40px'>Log Out</a>";
                                     } ?>
-
 
                                 </div>
                                 <?php if ($_SESSION['customer_email'] == 'unset') {
@@ -94,12 +74,12 @@ include('db.php');
 
         <!-- Middle Bar -->
 
-        <div class="container">
+        <!-- <div class="container">
             <div class="inner-header">
                 <div class="row">
                     <div class="col-md-3 logo">
                         <a href="index.php">
-                            <span>Inferno Co.</span>
+                            <span>Chan Rachen.</span>
                         </a>
                     </div>
 
@@ -145,11 +125,9 @@ include('db.php');
                     </div>
                 </div>
             </div>
-        </div>
-
+        </div> -->
 
         <!-- Lower Bar -->
-
 
         <div class="nav-item">
             <div class="container">
